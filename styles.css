@@ -430,3 +430,17 @@ code{font-family:var(--mono); background:#eef2f7; padding:2px 6px; border-radius
 @media (max-width: 520px){
   .mBottomBtn{ font-size:16px; padding:16px 12px; }
 }
+
+
+
+/* === Desktop search: keep Open button beside the search input === */
+.searchBox{ flex-wrap: nowrap !important; }
+.searchInput{
+  width: auto !important;
+  flex: 1 1 320px;
+  min-width: 220px;
+}
+
+/* === Desktop: remove the initials circle/avatar === */
+.avatar{ display: none !important; }
+.desktopCard__left{ gap: 0 !important; }
